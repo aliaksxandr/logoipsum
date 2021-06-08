@@ -9,10 +9,23 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+.header_logo {
+  margin-right: 170px;
+  padding: 9px 0 7px;
+  float: left;
+}
+.header_nav {
+  padding-top: 16px;
+  float: left;
+}
+.header_button {
+  float: right;
+}
 .header_nav .menu {
   list-style: none;
 }
 .header_nav .menu .menu_item a {
+  padding: 10px;
   font-family: DM Sans;
   font-weight: bold;
   font-size: 15px;
@@ -24,6 +37,8 @@
   display: inline-block;
 }
 .header_button button {
+  padding: 19px 60px;
+  height: 60px;
   background: #ff7143;
   border-radius: 10px;
   border: none;
@@ -33,4 +48,5 @@
   line-height: 22px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
